@@ -1,0 +1,506 @@
+
+tella@DESKTOP-AG5OND3 MINGW64 ~
+$ pwd
+/c/Users/tella
+
+tella@DESKTOP-AG5OND3 MINGW64 ~
+$ cd IH-Labs
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs
+$ cd lab-bash
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ echo "Hello World!"
+Hello World!
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ mkdir new_dir
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ rm new_dir
+rm: cannot remove 'new_dir': Is a directory
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ rmdir new_dir
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ switch lorem copy
+bash: switch: command not found
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ ćheckout lorem-copy
+bash: ćheckout: command not found
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ git checkout lorem-copy
+Updated 0 paths from the index
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ git mv lorem/seb.txt lorem-copy
+fatal: bad source, source=lorem/seb.txt, destination=lorem-copy/seb.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ ^C
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ ^C
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ git mv lorem/seb.txt lorem-copy/seb.txt
+fatal: bad source, source=lorem/seb.txt, destination=lorem-copy/seb.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ git mv lorem/sed.txt lorem-copy/sed.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ ^C
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ ^C
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ cd lorem
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ cp sed.txt lorem-copy
+cp: cannot stat 'sed.txt': No such file or directory
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ cd ..
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ cd lorem-copy
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cp sed.txt lorem
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cd lorem
+bash: cd: lorem: Not a directory
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cd ..
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ cd lorem
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ cp sed.txt lorem-copy
+cp: cannot stat 'sed.txt': No such file or directory
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ cd ..
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ cd lorem-copy
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt  lorem  sed.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cp sed.txt lab-bash
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cd ..
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ mv lab-bash/sed.txt lab-bash/lorem/sed.txt
+mv: cannot stat 'lab-bash/sed.txt': No such file or directory
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ pwd
+/c/Users/tella/IH-Labs/lab-bash
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ cd
+
+tella@DESKTOP-AG5OND3 MINGW64 ~
+$ cd lorem copy
+bash: cd: too many arguments
+
+tella@DESKTOP-AG5OND3 MINGW64 ~
+$ cd IH-Labs
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs
+$ cd lab-bash
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ cd lorem-copy
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt  lab-bash  lorem  sed.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cp sed.txt lorem
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cd ..
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ cd lorem
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ cp at.txt; lorem.txt lorem-copy
+cp: missing destination file operand after 'at.txt'
+Try 'cp --help' for more information.
+bash: lorem.txt: command not found
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ cp --help
+Usage: cp [OPTION]... [-T] SOURCE DEST
+  or:  cp [OPTION]... SOURCE... DIRECTORY
+  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --archive                same as -dR --preserve=all
+      --attributes-only        don't copy the file data, just the attributes
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --copy-contents          copy contents of special files when recursive
+  -d                           same as --no-dereference --preserve=links
+  -f, --force                  if an existing destination file cannot be
+                                 opened, remove it and try again (this option
+                                 is ignored when the -n option is also used)
+  -i, --interactive            prompt before overwrite (overrides a previous -n
+                                  option)
+  -H                           follow command-line symbolic links in SOURCE
+  -l, --link                   hard link files instead of copying
+  -L, --dereference            always follow symbolic links in SOURCE
+  -n, --no-clobber             do not overwrite an existing file (overrides
+                                 a previous -i option)
+  -P, --no-dereference         never follow symbolic links in SOURCE
+  -p                           same as --preserve=mode,ownership,timestamps
+      --preserve[=ATTR_LIST]   preserve the specified attributes (default:
+                                 mode,ownership,timestamps), if possible
+                                 additional attributes: context, links, xattr,
+                                 all
+      --no-preserve=ATTR_LIST  don't preserve the specified attributes
+      --parents                use full source file name under DIRECTORY
+  -R, -r, --recursive          copy directories recursively
+      --reflink[=WHEN]         control clone/CoW copies. See below
+      --remove-destination     remove each existing destination file before
+                                 attempting to open it (contrast with --force)
+      --sparse=WHEN            control creation of sparse files. See below
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -s, --symbolic-link          make symbolic links instead of copying
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 copy only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -x, --one-file-system        stay on this file system
+  -Z                           set SELinux security context of destination
+                                 file to default type
+      --context[=CTX]          like -Z, or if CTX is specified then set the
+                                 SELinux or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+
+By default, sparse SOURCE files are detected by a crude heuristic and the
+corresponding DEST file is made sparse as well.  That is the behavior
+selected by --sparse=auto.  Specify --sparse=always to create a sparse DEST
+file whenever the SOURCE file contains a long enough sequence of zero bytes.
+Use --sparse=never to inhibit creation of sparse files.
+
+When --reflink[=always] is specified, perform a lightweight copy, where the
+data blocks are copied only when modified.  If this is not possible the copy
+fails, or if --reflink=auto is specified, fall back to a standard copy.
+Use --reflink=never to ensure a standard copy is performed.
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+As a special case, cp makes a backup of SOURCE when the force and backup
+options are given and SOURCE and DEST are the same name for an existing,
+regular file.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/cp>
+or available locally via: info '(coreutils) cp invocation'
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ cat at.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ cat lorem.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ cd ..
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ cd lorem-copy
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ read file sed.txt
+head -3
+bash: read: `sed.txt': not a valid identifier
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ read sed.txt
+bash: read: `sed.txt': not a valid identifier
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt  lab-bash  lorem  sed.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ read sed
+head -3
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cat sed.txt | head -3
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cat sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ echo "Homo hoini lupus." >> sed.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cat sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+Homo hoini lupus.
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ read sed
+head n-3
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cat sed.txt | head n-3
+head: cannot open 'n-3' for reading: No such file or directory
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cat sed.txt | head -n-3
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ red sed
+bash: red: command not found
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ read sed
+sed et ET
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cat sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+Homo hoini lupus.
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ read sed
+sed s/et/ET/g
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cat sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+Homo hoini lupus.
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt  lab-bash  lorem  sed.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cd..
+bash: cd..: command not found
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem-copy (master)
+$ cd ..
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ cd lorem
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ read at
+sed s/et/ET/g
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ cat at.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ pwd
+/c/Users/tella/IH-Labs/lab-bash/lorem
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ ls* .txt
+bash: ls*: command not found
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ ls*.txt
+bash: ls*.txt: command not found
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ ls *.txt
+at.txt  lorem.txt
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash/lorem (master)
+$ cd ..
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs/lab-bash (master)
+$ cd ..
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs
+$ ls */lorem* | wc -1
+wc: unknown option -- 1
+Try 'wc --help' for more information.
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs
+$ ls */lorem* | wc -l
+10
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs
+$ wc sed.txt
+wc: sed.txt: No such file or directory
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs
+$ wc --help
+Usage: wc [OPTION]... [FILE]...
+  or:  wc [OPTION]... --files0-from=F
+Print newline, word, and byte counts for each FILE, and a total line if
+more than one FILE is specified.  A word is a non-zero-length sequence of
+characters delimited by white space.
+
+With no FILE, or when FILE is -, read standard input.
+
+The options below may be used to select which counts are printed, always in
+the following order: newline, word, character, byte, maximum line length.
+  -c, --bytes            print the byte counts
+  -m, --chars            print the character counts
+  -l, --lines            print the newline counts
+      --files0-from=F    read input from the files specified by
+                           NUL-terminated names in file F;
+                           If F is - then read names from standard input
+  -L, --max-line-length  print the maximum display width
+  -w, --words            print the word counts
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/wc>
+or available locally via: info '(coreutils) wc invocation'
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs
+$ ^C
+
+tella@DESKTOP-AG5OND3 MINGW64 ~/IH-Labs
+$
+
+
